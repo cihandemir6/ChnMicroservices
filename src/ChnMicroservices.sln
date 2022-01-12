@@ -9,6 +9,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{C9F1
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{388838C8-1185-4F01-B52C-37328C352FE9}"
 EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{B676DD8A-E9AA-412C-896F-D74BA440F51D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Basket", "Basket", "{1CD1193A-D40F-4D04-8C71-748D5F8B2400}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Basket.API", "Services\Basket\Basket.API\Basket.API.csproj", "{64FF0411-1C99-43EF-BA53-24D278804599}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +25,14 @@ Global
 		{388838C8-1185-4F01-B52C-37328C352FE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{388838C8-1185-4F01-B52C-37328C352FE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{388838C8-1185-4F01-B52C-37328C352FE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B676DD8A-E9AA-412C-896F-D74BA440F51D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B676DD8A-E9AA-412C-896F-D74BA440F51D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B676DD8A-E9AA-412C-896F-D74BA440F51D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B676DD8A-E9AA-412C-896F-D74BA440F51D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{64FF0411-1C99-43EF-BA53-24D278804599}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{64FF0411-1C99-43EF-BA53-24D278804599}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{64FF0411-1C99-43EF-BA53-24D278804599}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{64FF0411-1C99-43EF-BA53-24D278804599}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -29,5 +43,7 @@ Global
 	GlobalSection(NestedProjects) = preSolution
 		{C9F1609F-7F25-4EEB-B603-A959527484A3} = {026B903A-3395-45AE-A04A-1D20E4AF9635}
 		{388838C8-1185-4F01-B52C-37328C352FE9} = {C9F1609F-7F25-4EEB-B603-A959527484A3}
+		{1CD1193A-D40F-4D04-8C71-748D5F8B2400} = {026B903A-3395-45AE-A04A-1D20E4AF9635}
+		{64FF0411-1C99-43EF-BA53-24D278804599} = {1CD1193A-D40F-4D04-8C71-748D5F8B2400}
 	EndGlobalSection
 EndGlobal
